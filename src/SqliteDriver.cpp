@@ -7,7 +7,7 @@
 extern "C"{
 #include <sqlite.h>
 };
-#include <lclib-cxx-sqlite/API.hpp>
+#include <lclib-cxx/Config.hpp>
 #include <lclib-cxx/database/Database.hpp>
 #include <lclib-cxx/database/Exceptions.hpp>
 #include <string>
@@ -250,5 +250,4 @@ public:
 
 SqliteConnectionProvider provider{};
 
-void init(){}
 
