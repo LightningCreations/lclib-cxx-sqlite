@@ -7,9 +7,9 @@
 extern "C"{
 #include <sqlite.h>
 };
-#include <lclib-cxx/Config.hpp>
-#include <lclib-cxx/database/Database.hpp>
-#include <lclib-cxx/database/Exceptions.hpp>
+#include <lclib/Config.hpp>
+#include <lclib/database/Database.hpp>
+#include <lclib/database/Exceptions.hpp>
 #include <string>
 #include <cstring>
 
